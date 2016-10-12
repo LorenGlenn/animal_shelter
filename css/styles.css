@@ -60,6 +60,10 @@ body{
   height: 100%;
   width: 100%;
 }
+#map{
+  height: 80%;
+  width: 80%;
+}
 .item {
   padding: 25px;
   max-width: 300px;
@@ -69,14 +73,20 @@ body{
   text-align: center;
   font-weight: lighter;
 }
-
+iframe{
+  align:middle;
+}
 .item h3{
   text-align: center;
 }
+.address{
+  padding-top: 280px;
+  text-align: center;
+  min-width: 280px;
+}
 @media screen and (max-width: 768px) {
-
-  .main{
-    padding: 20px;
+  .address{
+    padding-top: 50px;
   }
   .container{
     display: flex;
