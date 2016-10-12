@@ -1,0 +1,100 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(to bottom,  aliceblue 0%,grey 100%);
+  background-attachment: fixed;
+}
+.main{
+  padding: 20px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.container_animal{
+  display: flex;
+  flex-wrap: wrap;
+}
+.aside ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 100% 0 0 0;
+
+}
+.aside li{
+  padding: 30% 0 30% 0;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  height: 33%;
+}
+
+.aside{
+    min-width: 150px;
+    background-color: papayawhip;
+    max-height: 700px;
+    min-height: 700px;
+    border: 2px solid grey;
+}
+
+.aside a{
+  text-decoration: none;
+}
+
+.aside a:link, a:visited{
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+  font-variant: small-caps;
+  background-color: papayawhip;
+
+}
+.header{
+  text-align: center;
+}
+
+.main{
+  padding: 20px;
+}
+#title_kitten{
+  height: 100%;
+  width: 100%;
+}
+.item {
+  padding: 25px;
+  max-width: 300px;
+  flex-wrap: wrap;
+}
+.copyright{
+  text-align: center;
+  font-weight: lighter;
+}
+
+.item h3{
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+
+  .main{
+    padding: 20px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .aside ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+  }
+  .aside li{
+    padding: 20px 0 10px 0;
+    text-align: center;
+    border-bottom: none;
+    border-top: none;
+}
+.aside{
+  min-height: inherit;
+}
